@@ -1,0 +1,33 @@
+
+# Atividade 1
+
+arroz = 5.00
+feijão = 3.00
+açucar = 2.50
+batata = 1.00
+óleo = 6.50
+bolacha_de_água_e_sal = 2.00
+bolacha_de_maizena = 3.00
+banana = 0.45
+couve_flor = 1.00
+leite_em_pó = 4.50
+
+print("Lista de preço dos itens: \narroz R$:", arroz,"\nfeijão R$:", feijão,"\naçucar R$:", açucar,"\nbatata R$:", batata,"\nóleo R$:", óleo,"\nbolacha de água e sal R$:", bolacha_de_água_e_sal,"\nbolacha de maizena R$:", bolacha_de_maizena,"\nbanana R$:", banana,"\ncouve-flor R$:", couve_flor,"\nleite em pó R$:", leite_em_pó)
+arroz_5kg = arroz * 5
+feijão_3kg = feijão * 3
+açucar_2kg = açucar * 2 
+batata_3kg = batata * 3
+bolacha_de_água_e_sal_1u = bolacha_de_água_e_sal * 1
+bolacha_de_maizena_1u = bolacha_de_maizena * 1
+óleo_5l = óleo * 5
+banana_18u = banana * 18
+couve_flor_2u = couve_flor * 2
+leite_em_pó_2k = leite_em_pó * 2
+
+print("\nLista de preço da compra: \narroz 5k R$:", arroz_5kg,"\nfeijão 3k R$:", feijão_3kg,"\naçucar 2k R$:", açucar_2kg,"\nbatata 3k R$:", batata_3kg,"\nóleo 1 litro R$:", óleo_5l,"\nbolacha de água e sal 1 pacote R$:", bolacha_de_água_e_sal_1u,"\nbolacha de maizena 1 pacote R$:", bolacha_de_maizena_1u,"\nbanana 18 unidades R$:", banana_18u,"\ncouve-flor 2 maços R$:", couve_flor_2u,"\nleite em pó 2 kg R$:", leite_em_pó_2k)
+compra = arroz_5kg + feijão_3kg + açucar_2kg + batata_3kg + bolacha_de_maizena_1u + bolacha_de_água_e_sal_1u + óleo_5l + banana_18u + couve_flor_2u + leite_em_pó_2k
+print ("\Valor total da compra: ", compra)
+if compra <= 100:
+    print ("pagamento em dinheiro")
+else:
+    print ("pagamento em parcelas com uso de cartão")
