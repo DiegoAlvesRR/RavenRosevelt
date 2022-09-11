@@ -1,0 +1,10 @@
+# Atividade 2
+
+temperatura = int(input("Digite a temperatura: "))
+umidade_do_ar = int(input("Digite a umidade relativa do ar: "))
+print("\ntemperatura atual: ",temperatura,"ºC")
+print("\numidade relativa do ar atual: ",umidade_do_ar,"%")
+if temperatura >= 28 and umidade_do_ar >= 50:
+    print ("\nirá chover amanhã")
+else:
+    print ("\namanhã o dia será sem chuvas")
