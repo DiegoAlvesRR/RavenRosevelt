@@ -1,0 +1,12 @@
+funcionario = "diego"
+idade = 28
+endereço = "Rua Guaibe"
+funçao = "Vendedor"
+salario = 1700.00
+
+print ("Dados do funcionário:")
+print ("nome: ", funcionario, "\ntipo de dado: ", type(funcionario))
+print ("idade: ", idade, "\ntipo de dado: ", type(idade))
+print ("endereço: ", endereço, "\ntipo de dado: ", type(endereço))
+print ("cargo: ", funçao, "\ntipo de dado: ", type(funçao))
+print ("salário: ", salario, "\ntipo de dado: ", type(salario))
