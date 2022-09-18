@@ -1,12 +1,12 @@
 funcionario = "diego"
 idade = 28
 endereço = "Rua Guaibe"
-função = "Vendedor"
+funçao = "Vendedor"
 salario = 1700.00
 
 print ("Dados do funcionário:")
 print ("nome: ", funcionario)
 print ("idade: ", idade)
 print ("endereço: ", endereço)
-print ("cargo: ", função)
+print ("cargo: ", funçao)
 print ("salário: ", salario)
