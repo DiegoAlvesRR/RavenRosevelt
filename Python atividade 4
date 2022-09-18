@@ -1,0 +1,18 @@
+temperatura = int(input("temperatura = "))
+dor_cabeça = input("tem dor de cabeça = ")
+coriza = input("tem coriza = ")
+print ("\ntemperatura = ", temperatura, "°C")
+print ("possui de cabeça = ", dor_cabeça)
+print ("tem coriza = ", coriza, "\n")
+
+gripe = temperatura > 37 and dor_cabeça
+
+print("no paciente tem gripe: temperatura > 37 and dor_cabeça = ", gripe)
+
+gripe = dor_cabeça or coriza
+
+print("\nno paciente tem gripe: dor_cabeça or coriza = ", gripe)
+
+gripe = temperatura > 37 and dor_cabeça or coriza
+
+print("\nno paciente tem gripe: dor_cabeça or coriza = ", gripe)
