@@ -1,0 +1,20 @@
+nome = input("digitar o nome do aluno = ")
+sobrenome = input("digitar o sobrenome do aluno = ")
+portugues = float(input("digitar a nota de português = "))
+matematica = float(input("digitar a nota de matematica = "))
+historia = float(input("digitar a nota de historia = "))
+geografia = float(input("digitar a nota de geografia = "))
+educaçao_fisica = float(input("digitar a nota de educação fisica = "))
+media = (portugues + matematica + historia + geografia + educaçao_fisica)/5
+print("\nnome do aluno = ", nome + " " + sobrenome)
+print("nota de portugûes = ", portugues)
+print("nota de matematica = ", matematica)
+print("nota de historia = ", historia)
+print("nota de geografia = ", geografia)
+print("nota de educação fisica = ", educaçao_fisica)
+print("valor da media final = ", media)
+
+if media >= 5.0:
+    print ("aluno foi aprovado")
+else:
+    print("aluno foi reprovado")
