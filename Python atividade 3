@@ -1,0 +1,13 @@
+V = True
+F = False
+
+salario = 1700.00
+idade = 29
+
+print ("a) Resultado de: \nTrue or False and not True = ", True or False and not True)
+
+print("b) Salário > 1000 e idade > 18 = ", salario > 1000 and idade > 18)
+
+print("c) 1 > 2 and True or False = ", 1 > 2 and True or False)
+print("10 > 3 and False or False = ", 10 > 3 and False or False)
+print("5 > 1 and True or True = ", 5 > 1 and True or True)
