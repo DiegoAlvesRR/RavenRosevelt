@@ -1,0 +1,33 @@
+arroz = 4.50
+feijão = 8.50
+açucar = 3.80
+batata = 5.50
+óleo = 7.90
+bolacha_de_água_e_sal = 2.30
+bolacha_de_maizena = 3.40
+banana = 2.00
+couve_flor = 6.00
+leite_em_pó = 12.00
+
+print("Lista de preço dos itens: \narroz R$:", arroz,"\nfeijão R$:", feijão,"\naçucar R$:", açucar,"\nbatata R$:", batata,"\nóleo R$:", óleo,"\nbolacha de água e sal R$:", bolacha_de_água_e_sal,"\nbolacha de maizena R$:", bolacha_de_maizena,"\nbanana R$:", banana,"\ncouve-flor R$:", couve_flor,"\nleite em pó R$:", leite_em_pó)
+
+arroz = 4.50 * 5
+feijão = 8.50 * 3
+açucar = 3.80 * 2
+batata = 5.50 * 3
+óleo = 7.90 * 5
+bolacha_de_água_e_sal = 2.30 * 1
+bolacha_de_maizena = 3.40 * 1
+banana = 2.00 * 18
+couve_flor = 6.00 * 2
+leite_em_pó = 12.00 * 2
+
+print("\nLista de preço por quantidade: \narroz 5KG R$:", arroz,"\nfeijão 3K R$:", feijão,"\naçucar 2KG R$:", açucar,"\nbatata 3KG R$:", batata,"\nóleo 5L R$:", óleo,"\nbolacha de água e sal 1 Pacote R$:", bolacha_de_água_e_sal,"\nbolacha de maizena 1 Pacote R$:", bolacha_de_maizena,"\nbanana 1 Duzia e meia R$:", banana,"\ncouve-flor 2 Maços R$:", couve_flor,"\nleite em pó 2 Latas R$:", leite_em_pó)
+
+compra = arroz + feijão + açucar + batata + bolacha_de_maizena + bolacha_de_água_e_sal + óleo + banana + couve_flor + leite_em_pó
+
+print ("\nValor total da compra: ", compra)
+if compra <= 100:
+    print ("pagamento em dinheiro")
+else:
+    print ("pagamento em parcelas com uso de cartão")
