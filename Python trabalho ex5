@@ -1,0 +1,53 @@
+maria = "Maria"
+tania = "Tânia"
+jose = "José"
+daniel = "Daniel"
+
+notas_maria = "Historia: 5.6 \nGeografia: 6.7 \nPortugues: 7.0 \nMatematica: 10.0 \nCiencias: 4.0 \nLiteratura: 8.0"
+media_maria = (5.6 + 6.7 + 7.0 + 10.0 + 4.0 + 8.0) // 6
+
+notas_tania = "Historia: 2.3 \nGeografia: 6.6 \nPortugues: 8.0 \nMatematica: 5.5 \nCiencias: 10.0 \nLiteratura: 5.0"
+media_tania = (2.3 + 6.6 + 8.0 + 5.5 + 10.0 + 5.0) // 6
+
+notas_jose = "Historia: 7.7 \nGeografia: 4.0 \nPortugues: 7.0 \nMatematica: 7.9 \nCiencias: 2.2 \nLiteratura: 6.5 "
+media_jose = (7.7 + 4.0 + 7.0 + 7.9 + 2.2 + 6.5) // 6
+
+notas_daniel = "Historia: 9.0 \nGeografia: 10.0 \nPortugues: 3.3 \nMatematica: 8.0 \nCiencias: 6.0 \nLiteratura: 4.6 "
+media_daniel = (9.0 + 10.0 + 3.3 + 8.0 + 6.0 + 4.6) // 6
+
+aluno = input("Digite o nome de um aluno = ")
+if aluno == "Maria":
+    print("Notas da Maria: ")
+    print(notas_maria)
+    print("Media Final da Maria: ", media_maria)
+    if media_maria >= 5.0:
+        print("Maria foi aprovada")
+    elif media_maria <= 4.0:
+        print("Maria foi reprovada")
+elif aluno == "Tânia":
+        print("Notas da Tânia: ")
+        print(notas_tania)
+        print("Media Final da Tânia: ", media_tania)
+        if media_tania >= 5.0:
+            print("Tânia foi aprovada") 
+        elif media_tania <= 4.0:
+                print("Tânia foi reprovada")
+elif aluno == "José":
+        print("Notas da José: ")
+        print(notas_jose)
+        print("Media Final da José: ", media_jose)
+        if media_jose >= 5.0:
+            print("José foi aprovado") 
+        elif media_jose <= 4.0:
+                print("José foi reprovado")
+elif aluno == "Daniel":
+        print("Notas da Daniel: ")
+        print(notas_daniel)
+        print("Media Final da Daniel: ", media_daniel)
+        if media_daniel >= 5.0:
+            print("Daniel foi aprovado") 
+        elif media_daniel <= 4.0:
+                print("Daniel foi reprovado")
+else:
+            print("Digite um aluno valido")
+    
