@@ -1,0 +1,16 @@
+identificaçao = input("digite a identificação = ")
+endereço = input("digite o endereço = ")
+cpf = input("digite o cpf = ")
+renda_anual = float(input("digite a renda anual = R$ "))
+imposto_pago = float(input("digite o valor de imposto pago = R$ "))
+print ("\nidentificação = ", identificaçao)
+print ("endereço = ", endereço)
+print ("cpf = ", cpf)
+print ("renda anual = R$ ", renda_anual)
+print ("imposto pago = R$ ", imposto_pago)
+
+if renda_anual <= 4400.00:
+    imposto = 0.0
+else:
+    imposto = renda_anual * 0.15 - imposto_pago
+print("valor do imposto = R$ ", imposto)
