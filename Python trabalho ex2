@@ -1,0 +1,14 @@
+funcionario = "diego"
+idade = 28
+endereço = "Rua Guaibe"
+funçao = "Vendedor"
+salario = 1700.00
+
+print ("Dados do funcionário:")
+print ("nome: ", funcionario)
+print ("idade: ", idade)
+print ("endereço: ", endereço)
+print ("cargo: ", funçao)
+print ("salário: ", salario)
+
+print ("salário reajustado em 20%: ", salario *0.20 + salario)
