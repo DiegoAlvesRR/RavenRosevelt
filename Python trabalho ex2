@@ -1,7 +1,7 @@
 print("Escreva os dados do funcionario: ")
 
 funcionario = input("Digite o nome do funcionário: ")
-idade = float(input("Digite a idade: "))
+idade = int(input("Digite a idade: "))
 endereço = input("Digite o endereço: ")
 cargo = input("Digite o cargo: ")
 salario = float(input("Digite o salario "))
