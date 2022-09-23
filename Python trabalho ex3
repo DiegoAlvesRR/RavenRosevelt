@@ -1,28 +1,28 @@
-arroz = 4.50
-feijão = 8.50
-açucar = 3.80
-batata = 5.50
-óleo = 7.90
-bolacha_de_água_e_sal = 2.30
-bolacha_de_maizena = 3.40
-banana = 2.00
-couve_flor = 6.00
-leite_em_pó = 12.00
+arroz = float(input("Digite o preço do arroz: "))
+feijão = float(input("Digite o preço do feijão: "))
+açucar = float(input("Digite o preço do açucar: "))
+batata = float(input("Digite o preço da batata: "))
+óleo = float(input("Digite o preço do oleo: "))
+bolacha_de_água_e_sal = float(input("Digite o preço da bolacha de água e sal: "))
+bolacha_de_maizena = float(input("Digite o preço da maizena: "))
+banana = float(input("Digite o preço do banana: "))
+couve_flor = float(input("Digite o preço do couve flor: "))
+leite_em_pó = float(input("Digite o preço do leite em pó: "))
 
 print("Lista de preço dos itens: \narroz R$:", arroz,"\nfeijão R$:", feijão,"\naçucar R$:", açucar,"\nbatata R$:", batata,"\nóleo R$:", óleo,"\nbolacha de água e sal R$:", bolacha_de_água_e_sal,"\nbolacha de maizena R$:", bolacha_de_maizena,"\nbanana R$:", banana,"\ncouve-flor R$:", couve_flor,"\nleite em pó R$:", leite_em_pó)
 
-arroz = 4.50 * 5
-feijão = 8.50 * 3
-açucar = 3.80 * 2
-batata = 5.50 * 3
-óleo = 7.90 * 5
-bolacha_de_água_e_sal = 2.30 * 1
-bolacha_de_maizena = 3.40 * 1
-banana = 2.00 * 18
-couve_flor = 6.00 * 2
-leite_em_pó = 12.00 * 2
+arroz = arroz * 5
+feijão = feijão * 3
+açucar = açucar * 2
+batata = batata * 3
+óleo = óleo * 5
+bolacha_de_água_e_sal = bolacha_de_água_e_sal * 1
+bolacha_de_maizena = bolacha_de_maizena * 1
+banana = banana * 18
+couve_flor = couve_flor * 2
+leite_em_pó = leite_em_pó * 2
 
-print("\nLista de preço por quantidade: \narroz 5KG R$:", arroz,"\nfeijão 3K R$:", feijão,"\naçucar 2KG R$:", açucar,"\nbatata 3KG R$:", batata,"\nóleo 5L R$:", óleo,"\nbolacha de água e sal 1 Pacote R$:", bolacha_de_água_e_sal,"\nbolacha de maizena 1 Pacote R$:", bolacha_de_maizena,"\nbanana 1 Duzia e meia R$:", banana,"\ncouve-flor 2 Maços R$:", couve_flor,"\nleite em pó 2 Latas R$:", leite_em_pó)
+print("\nLista de preço por quantidade: \narroz 5KG R$:", (f"arroz {arroz:4.2f}"),"\nfeijão 3K R$:", (f"feijão {feijão:4.2f}"),"\naçucar 2KG R$:", (f"açucar {açucar:4.2f}"),"\nbatata 3KG R$:", (f"batata {batata:4.2f}"),"\nóleo 5L R$:", (f"óleo {óleo:4.2f}"),"\nbolacha de água e sal 1 Pacote R$:", (f"bolacha_de_água_e_sal {bolacha_de_água_e_sal:4.2f}"),"\nbolacha de maizena 1 Pacote R$:", (f"bolacha_de_maizena {bolacha_de_maizena:4.2f}"),"\nbanana 1 Duzia e meia R$:", (f"banana {banana:4.2f}"),"\ncouve-flor 2 Maços R$:", (f"couve_flor {couve_flor:4.2f}"),"\nleite em pó 2 Latas R$:", (f"leite_em_pó {leite_em_pó:4.2f}"))
 
 compra = arroz + feijão + açucar + batata + bolacha_de_maizena + bolacha_de_água_e_sal + óleo + banana + couve_flor + leite_em_pó
 
