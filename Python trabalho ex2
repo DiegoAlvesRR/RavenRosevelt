@@ -1,14 +1,13 @@
-funcionario = "diego"
-idade = 28
-endereço = "Rua Guaibe"
-funçao = "Vendedor"
-salario = 1700.00
+funcionario = input("Digite o nome do funcionário: ")
+idade = float(input("Digite a idade: "))
+endereço = input("Digite o endereço: ")
+cargo = input("Digite o cargo: ")
+salario = float(input("Digite o salario "))
 
-print ("Dados do funcionário:")
-print ("nome: ", funcionario)
-print ("idade: ", idade)
-print ("endereço: ", endereço)
-print ("cargo: ", funçao)
-print ("salário: ", salario)
+print("Nome do funcionario: ", funcionario)
+print("idade: ", idade)
+print("endereço: ", endereço)
+print("cargo: ", cargo)
+print("salario: ", salario)
 
-print ("salário reajustado em 20%: ", salario *0.20 + salario)
+print ("salário reajustado em 20%: ", salario * 0.20 + salario)
