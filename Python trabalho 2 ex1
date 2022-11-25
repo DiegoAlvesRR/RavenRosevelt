@@ -1,0 +1,18 @@
+alunos = [""]
+notas = [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+media = 0.0
+rolagem = 0
+
+while rolagem < 11:
+    alunos[rolagem] = input("digite o nome do aluno: ")
+    notas[1] = float(input("digite a nota de História: "))
+    notas[2] = float(input("digite a nota de Matemática: "))
+    notas[3] = float(input("digite a nota de Português: "))
+    notas[4] = float(input("digite a nota de Geografia: "))
+    notas[5] = float(input("digite a nota de Ciências: "))
+    media = notas[1] + notas[2] + notas[3] + notas[4] + notas[5] / 5
+    print("media final: ", media)
+    if media >= 5:
+        print("o aluno", alunos, " foi aprovado")
+    else:
+        print("o aluno", alunos, " foi reprovado")
