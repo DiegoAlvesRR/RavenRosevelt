@@ -1,0 +1,6 @@
+frase = [ "de cinema)", "que satisfaça o contexto", "sequenciamento de listas", "para mostrar", "a sequencia dos", "no console", "(para quem gosta", "contida na mesma", "elementos da lista", "Utilizar o", "da frase", "do significado"]
+
+print("A frase ordenada é: \n", frase[9], frase[2], frase[3], frase[5], frase[4], frase[8], frase[1], frase[11], frase[10], frase[7], frase[6], frase[0])
+
+print("\nA dimensão da frase é:", len(frase))
+print("\nOs elementos impares da frase são:", frase[1],frase[3],frase[5],frase[7],frase[9],frase[11])
